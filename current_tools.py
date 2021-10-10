@@ -54,6 +54,7 @@ def current_tools():
             '', '-', 'TC2']
 
     # SX
+    current_midas_tool = ''
     current_hydra_tools = {
         "H1": '', "H2": '', "H3": '', "H4": '', "H5": '', "H6": '', "H7": '', "H8": ''
     }
@@ -66,8 +67,8 @@ def current_tools():
     current_hydra_tools_L = {
         "H1": '', "H2": '', "H3": '', "H4": '', "H5": '', "H6": '', "H7": '', "H8": ''
     }
-    current_midas_tools_R = ''
-    current_midas_tools_L = ''
+    current_midas_tool_R = ''
+    current_midas_tool_L = ''
 
     for line in file:
         line = line.strip('\n').split(';')
